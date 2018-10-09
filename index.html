@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!--    GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <!--    BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!--NAV BAR STARTS-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Learn More
+        </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--    NAV BAR ENDS-->
+
+    <div class="para">
+        <p class="text-justify">“Be like water making its way through cracks. Do not be assertive, but adjust to the object, and you shall find a way round or through it. If nothing within you stays rigid, outward things will disclose themselves. Empty your mind, be formless. Shapeless, like water. If you put water into a cup, it becomes the cup. You put water into a bottle and it becomes the bottle. You put it in a teapot it becomes the teapot. Now, water can flow or it can crash. Be water, my friend.”</p>
+    </div>
+
+    <!--CAROUSEL STARTS-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/blue.png" alt="Los Angeles">
+            </div>
+
+            <div class="item">
+                <img src="img/green.png" alt="Chicago">
+            </div>
+
+            <div class="item">
+                <img src="img/red.png" alt="New York">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>y
+    <span class="sr-only">Next</span>
+  </a>
+    </div>
+    <!--CAROUSEL ENDS-->
+
+    <!--    IMAGE AND  TEXT ALTERNATE STARTS-->
+
+    <div class="text-picture">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-picture__text">
+                    <h2>Large Title <small>Small Title</small></h2>
+                    <p>
+                        Ut sed congue massa. Cras eu turpis lacinia, ultricies ipsum fermentum, consectetur ipsum. Integer vestibulum a nunc noipsum. Integer vestibulum a nunc non facilisis.
+                    </p>
+                </div>
+                <div class="col-sm-6 text-picture__picture">
+                    <img src="http://placehold.it/640x340/?text=Image" alt="Image" class="img-responsive" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-picture text-picture--gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-push-6 text-picture__text">
+                    <h2>Large Title <small>Small Title</small></h2>
+                    <p>
+                        Ut sed congue massa. Cras eu turpis lacinia, ultricies ipsum fermentum, consectetur ipsum. Integer vestibulum a nunc noipsum. Integer vestibulum a nunc non facilisis.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6 text-picture__picture">
+                    <img src="http://placehold.it/640x340/?text=Image" alt="Image" class="img-responsive" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-picture">
+        <div class="container">
+            <div class="row row--flex">
+                <div class="col-sm-6 row--flex__col--center text-picture__text">
+                    <h2>Large Title <small>Small Title</small></h2>
+                    <p>
+                        Ut sed congue massa. Cras eu turpis lacinia, ultricies ipsum fermentum, consectetur ipsum. Integer vestibulum a nunc noipsum. Integer vestibulum a nunc non facilisis.
+                    </p>
+                </div>
+                <div class="col-sm-6 text-picture__picture">
+                    <img src="http://placehold.it/640x340/?text=Image" alt="Image" class="img-responsive" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-picture text-picture--gray-bg">
+        <div class="container">
+            <div class="row row--flex">
+                <div class="col-sm-6 row--flex__col--center col-sm-push-6 text-picture__text">
+                    <h2>Large Title <small>Small Title</small></h2>
+                    <p>
+                        Ut sed congue massa. Cras eu turpis lacinia, ultricies ipsum fermentum, consectetur ipsum. Integer vestibulum a nunc noipsum. Integer vestibulum a nunc non facilisis.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6 text-picture__picture">
+                    <img src="http://placehold.it/640x340/?text=Image" alt="Image" class="img-responsive" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-picture">
+        <div class="container">
+            <div class="row row--flex">
+                <div class="col-sm-6 row--flex__col--bottom text-picture__text">
+                    <h2>Large Title <small>Small Title</small></h2>
+                    <p>
+                        Ut sed congue massa. Cras eu turpis lacinia, ultricies ipsum fermentum, consectetur ipsum. Integer vestibulum a nunc noipsum. Integer vestibulum a nunc non facilisis.
+                    </p>
+                </div>
+                <div class="col-sm-6 text-picture__picture">
+                    <img src="http://placehold.it/640x340/?text=Image" alt="Image" class="img-responsive" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-picture text-picture--gray-bg">
+        <div class="container">
+            <div class="row row--flex">
+                <div class="col-sm-6 row--flex__col--bottom col-sm-push-6 text-picture__text">
+                    <h2>Large Title <small>Small Title</small></h2>
+                    <p>
+                        Ut sed congue massa. Cras eu turpis lacinia, ultricies ipsum fermentum, consectetur ipsum. Integer vestibulum a nunc noipsum. Integer vestibulum a nunc non facilisis.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-sm-pull-6 text-picture__picture">
+                    <img src="http://placehold.it/640x340/?text=Image" alt="Image" class="img-responsive" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    IMAGE AND  TEXT ALTERNATE ENDS-->
+
+    <!--    FOOTER START-->
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj8qZzcu_PdAhVCzlkKHWlaDF8QPAgH"> Google.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <!--    FOOTER ENDS-->
+
+
+    <!--JS LINKS-->
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!--    SCRIPT FOR CAROUSEL-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
